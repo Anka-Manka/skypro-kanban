@@ -7,11 +7,11 @@ function Main() {
 
                 <div className="main__block">
                     <div className="main__content">
-                        <Column/>
-                        <Column/>
-                        <Column/>
-                        <Column/>
-                        <Column/>
+                        <Column title={'Без статуса'}/>
+                        <Column title={'Нужно сделать'}/>
+                        <Column title={'В работе'}/>
+                        <Column title={'Тестирование'}/>
+                        <Column title={'Готово'}/>
                     </div>
 
                 </div>
