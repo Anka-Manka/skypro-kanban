@@ -1,10 +1,10 @@
-function Card() {
+function Card({ title, color }) {
     return (
         <div className="cards__item">
             <div className="cards__card card">
                 <div className="card__group">
-                    <div className="card__theme _orange">
-                        <p className="_orange">Web Design</p>
+                    <div className={`card__theme ${color}`}>
+                        <p className={`${color}`}>{title}</p>
                     </div>
                     <a href="#popBrowse" target="_self">
                         <div className="card__btn">
